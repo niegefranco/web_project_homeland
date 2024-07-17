@@ -1,9 +1,10 @@
 .footer {
   display: flex;
-  align-items: center;
+  justify-content: center;
 }
 .footer__copyright {
-    align-self: flex-end;
+  display: flex;
+  
   font-family: Inter;
   font-size: 14px;
   font-weight: 400;
