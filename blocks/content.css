@@ -1,10 +1,10 @@
-.lead {
+.content {
   display: flex;
   flex-direction: column;
   align-items: center;
   max-width: 984px;
 }
-.lead__title {
+.content__title {
   font-family: Inter;
   font-size: 96px;
   font-weight: 900;
@@ -14,7 +14,7 @@
   max-width: 720px;
   max-height: 200px;
 }
-.lead__subtitle {
+.content__subtitle {
   margin-top: 0;
   max-width: 720px;
   max-height: 72px;
@@ -25,17 +25,17 @@
   text-align: center;
   color: #ffffff;
 }
-.lead__image {
+.content__image {
   max-width: 100%;
 }
 @media screen and (max-width: 1024px) {
-  .lead {
+  .content {
     display: flex;
     width: 100%;
   }
 }
 @media screen and (max-width: 544px) {
-  .lead__title {
+  .content__title {
     width: 100%;
     
   
@@ -45,7 +45,7 @@
     line-height: 44px;
     text-align: center;
   }
-  .lead__image{
+  .content__image{
     margin-top:40px;
   }
 }
