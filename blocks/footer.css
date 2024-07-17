@@ -1,0 +1,28 @@
+.footer {
+  display: flex;
+  align-items: center;
+}
+.footer__copyright {
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16px;
+  text-align: right;
+  color: #ffffff;
+}
+@media screen and (max-width: 768px) {
+  .footer {
+    color: #ffffff;
+    max-width: 166px;
+
+    margin-top: 92px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .footer {
+    color: #ffffff;
+    max-width: 166px;
+
+    margin-top: 92px;
+  }
+}
