@@ -28,22 +28,24 @@
 .lead__image {
   max-width: 100%;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
   .lead {
     display: flex;
-    max-width: 720px;
+    width: 100%;
   }
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 544px) {
   .lead__title {
     width: 100%;
     
-    
-    
+  
     font-family: Inter;
     font-size: 40px;
     font-weight: 900;
     line-height: 44px;
     text-align: center;
+  }
+  .lead__image{
+    margin-top:40px;
   }
 }

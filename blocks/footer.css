@@ -10,7 +10,7 @@
   text-align: right;
   color: #ffffff;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
   .footer {
     color: #ffffff;
     max-width: 166px;
@@ -18,7 +18,7 @@
     margin-top: 92px;
   }
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 544px) {
   .footer {
     color: #ffffff;
     max-width: 166px;
