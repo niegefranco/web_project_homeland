@@ -1,1 +1,2 @@
 # Tripleten web_project_homeland
+O projeto Tripleten Web_project_homeland, consiste em uma página responsiva mostrando um pouco do lugar onde alguns colaboradores da tripleten moram. O site utiliza imagens responsivas que reduzem sua largura dependendo do tamanho da tela que está sendo visualizado. A ferramenta de media screen foi utilizada para essa tarefa de responsividade. Utilizamos também centralizações de items para deixar um visual mais leve.
