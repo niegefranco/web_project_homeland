@@ -1,8 +1,13 @@
 .content {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  justify-content: center;
   max-width: 984px;
+}
+.content__section{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .content__title {
   font-family: Inter;
@@ -13,6 +18,7 @@
   color: #ffffff;
   max-width: 720px;
   max-height: 200px;
+  
 }
 .content__subtitle {
   margin-top: 0;
