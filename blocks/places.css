@@ -1,0 +1,18 @@
+.places {
+  display: grid;
+  grid-template-columns: repeat(4 1fr);
+  grid-template-rows: repeat(6 1fr);
+}
+.places__criccieth {
+  display: grid;
+  grid-column: ;
+}
+.places__title {
+  font-family: Inter;
+  font-size: 72px;
+  font-weight: 900;
+  line-height: 76px;
+  text-align: left;
+  color: #FFFFFF;
+
+}
