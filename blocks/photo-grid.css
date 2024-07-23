@@ -1,22 +1,24 @@
 .photo-grid{
     display:grid;
     grid-template-columns: repeat(4, 1fr);
-    max-width:1184px;
+    max-width: 1184px;
     column-gap: 16px;
     row-gap: 16px;
     max-width:100%;
     object-fit: cover;
-    max-width:1184px;
+    
+    margin-left: auto;
 }
 @media screen and (max-width: 1024px){
     .photo-grid{display:grid;
     grid-template-columns: repeat(2, 1fr);
     column-gap: 16px;
-    row-gap: 16px;}
+    row-gap: 16px;
+margin-left: 0;}
 }
 @media screen and (max-width: 544px){
     .photo-grid{display:grid;
         grid-template-columns: repeat(1, 1fr);
         
-        row-gap: 16px;}
+        ;}
 }
