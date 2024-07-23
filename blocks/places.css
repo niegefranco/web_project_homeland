@@ -76,7 +76,7 @@
   text-decoration: none;
 }
 .places__button:hover {
-  background: linear-gradient(90deg, rgba(2,120,254,0.25) 0%, rgba(0,58,123,0.25) 99.98%);
+  background: linear-gradient(90deg, rgba(2, 120, 254, 0.25) 0%, rgba(0, 58, 123, 0.25) 99.98%);
 }
 .places__image-boituva {
   max-width: 460px;
