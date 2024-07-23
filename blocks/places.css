@@ -8,7 +8,7 @@
   grid-column-gap: 40px;
   grid-row-gap: 48px;
 }
-.city__name {
+.places__name {
   max-width: 460px;
 
   grid-area: titulo;
@@ -20,12 +20,12 @@
   color: #ffffff;
   margin-top: 92px;
 }
-.city__artists {
+.places__artists {
   margin-top: 253px;
   grid-area: artistas;
 }
 
-.city__artist-author {
+.places__artist-author {
   font-family: Inter;
   font-size: 12px;
   font-family: Inter;
@@ -36,7 +36,7 @@
   text-align: left;
   color: #aaaaaa;
 }
-.city__artist-name {
+.places__artist-name {
   font-family: Inter;
   font-size: 18px;
   font-weight: 400;
@@ -44,13 +44,13 @@
   text-align: left;
   color: #ffffff;
 }
-.city__image {
+.places__image {
   grid-area: imagem;
 }
-.city__text {
+.places__text {
   grid-area: texto;
 }
-.city__text-description {
+.places__text-description {
   font-family: Inter;
   font-size: 18px;
   font-weight: 400;
@@ -60,7 +60,7 @@
   grid-row-gap: 25px;
   grid-area: texto;
 }
-.city__button {
+.places__button {
   max-width: 356.08px;
   max-height: 48px;
   width: 100%;
@@ -73,10 +73,10 @@
   color: #ffffff;
   text-decoration: none;
 }
-.city__button:hover {
+.places__button:hover {
   background: linear-gradient(90deg, #0278fe 0%, #003a7b 99.98%);
 }
-.city__image-boituva {
+.places__image-boituva {
   max-width: 460px;
   max-height: 460px;
 }
@@ -92,18 +92,18 @@
     grid-row-gap: 48px;
   }
 
-  .city__name {
+  .places__name {
     width: 340px;
 
     color: #ffffff;
     margin-top: 88px;
   }
-  .city__artists {
+  .places__artists {
     margin-top: 253px;
     grid-area: artistas;
   }
 
-  .city__artist-author {
+  .places__artist-author {
     font-family: Inter;
     font-size: 12px;
     font-family: Inter;
@@ -114,7 +114,7 @@
     text-align: left;
     color: #aaaaaa;
   }
-  .city__artist-name {
+  .places__artist-name {
     height: 22px;
     font-family: Inter;
     font-size: 18px;
@@ -123,20 +123,20 @@
     text-align: left;
     color: #ffffff;
   }
-  .city__image {
+  .places__image {
     grid-area: imagem;
     max-width: 340px;
     max-width: 340px;
   }
-  .city__image-boituva {
+  .places__image-boituva {
     max-width: 340px;
   }
-  .city__text {
+  .places__text {
     grid-area: texto;
   }
-  .city__text-description {
+  .places__text-description {
   }
-  .city__button {
+  .places__button {
     max-width: 355px;
     max-height: 48px;
     margin: 0 16px;
@@ -163,18 +163,18 @@
     grid-row-gap: 30px;
   }
 
-  .city__name {
+  .places__name {
     width: 340px;
 
     color: #ffffff;
   }
-  .city__artists {
+  .places__artists {
     height: 67px;
 
     grid-area: artistas;
   }
 
-  .city__artist-author {
+  .places__artist-author {
     height: 16px;
 
     font-family: Inter;
@@ -187,7 +187,7 @@
     text-align: left;
     color: #aaaaaa;
   }
-  .city__artist-name {
+  .places__artist-name {
     height: 22px;
     font-family: Inter;
     font-size: 18px;
@@ -196,17 +196,17 @@
     text-align: left;
     color: #ffffff;
   }
-  .city__image {
+  .places__image {
     grid-area: imagem;
     max-width: 320px;
   }
-  .city__image-boituva {
+  .places__image-boituva {
     max-width: 320px;
   }
-  .city__text {
+  .places__text {
     grid-area: texto;
   }
-  .city__text-description {
+  .places__text-description {
     max-width: 288px;
 
     display: grid;
@@ -218,7 +218,7 @@
     color: #ffffff;
     grid-row-gap: 25px;
   }
-  .city__button {
+  .places__button {
     max-width: 288px;
     max-height: 48px;
     margin: 0 16px;
