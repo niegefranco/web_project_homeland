@@ -1,4 +1,4 @@
-.city__places {
+.places__city {
   display: grid;
   grid-template-areas:
     "titulo artistas"
@@ -228,5 +228,6 @@
     background: linear-gradient(90deg, #0278fe 0%, #003a7b 99.98%);
     grid-area: button;
     box-shadow: 5px 5px 10px 0px #00000040;
+    
   }
 }
