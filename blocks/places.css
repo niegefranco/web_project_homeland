@@ -46,6 +46,8 @@
 }
 .places__image {
   grid-area: imagem;
+  box-shadow: 5px 5px 10px 0px #00000040;
+
 }
 .places__text {
   grid-area: texto;
