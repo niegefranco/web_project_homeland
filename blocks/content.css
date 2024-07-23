@@ -54,4 +54,17 @@
   .content__image{
     margin-top:40px;
   }
+}.content__places {
+  max-width: 984px;
+  margin-left: auto;
 }
+@media screen and (max-width: 1024px) {
+  .content__places {
+    max-width: 720px;
+    margin-left: 0;
+  }
+  @media screen and (max-width: 544px){
+    .content__places {
+        max-width: 720px;
+        grid-row-gap: 30px;
+      }
